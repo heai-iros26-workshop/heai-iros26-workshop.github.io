@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Human-aware Embodied AI</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Explore the future of Human-aware Embodied AI, focusing on trustworthiness, robustness, and intuitive human-agent collaboration."
+    />
+    <meta
+      name="keywords"
+      content="Embodied AI, Human-Robot Interaction, Large Language Models, MLLMs, AI Trust, AI Safety, Co-Habitat, IROS 25, IROS25, IROS workshop"
+    />
+    <!-- <meta name="author" content="Your Name or Organization"> -->
+
+    <!-- Bulma Version 1-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@1.0.2/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/showcase.css" />
+    <script
+      src="https://kit.fontawesome.com/37a54cf404.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <!-- <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="img/preloader.gif" alt="" />
+      </div>
+    </div> -->
+    <!-- End Preloader-->
+    <!-- Begin Scroll Up Button -->
+
+    <form action="#home">
+      <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+    </form>
+    <!-- End Scroll Up Button -->
+
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero hero-background is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-fixed-top is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#home"
+                  ><i class="fa-solid fa-house"></i> Home
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#about-me">
+                  <i class="fa-solid fa-circle-info"></i> About HEAI
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#keynote-speakers"
+                  ><i class="fa-solid fa-person"></i> Keynote Speakers
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#services"
+                  ><i class="fa-regular fa-calendar-days"></i> Schedule
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#submission"
+                  ><i class="fa-solid fa-upload"></i> Submission
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#organizing-commitee">
+                  <i class="fa-solid fa-person"></i> Organizing Commitee
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#contact"
+                  ><i class="fa-solid fa-address-book"></i> Contact
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <!-- <h1 class="subtitle">Workshop on</h1> -->
+            <h2
+              class="title is-size-2-mobile is-size-0-tablet is-size-0-desktop"
+            >
+              Human-aware Embodied AI
+            </h2>
+
+            <h1 class="subtitle">(HEAI) workshop</h1>
+            <h1 class="subtitle">
+              accepted at
+              <b><a href="http://www.iros25.org/">IROS'25</a></b>
+            </h1>
+          </div>
+        </div>
+
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div
+                class="column is-12 hero-menu-desktop has-text-centered is-fixed-top"
+              >
+                <div style="position: absolute; left: 20px; top: 10px">
+                  <span
+                    class="website-name"
+                    style="
+                      font-weight: bold;
+                      font-size: 1.5em;
+                      text-transform: none;
+                      padding-left: 2em;
+                    "
+                    >HEAI 2025</span
+                  >
+                </div>
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about-me">About HEAI</a>
+                  </li>
+                  <li>
+                    <a href="#keynote-speakers">Keynote Speakers</a>
+                  </li>
+                  <li>
+                    <a href="#services">Schedule</a>
+                  </li>
+                  <li>
+                    <a href="#submission">Submission</a>
+                  </li>
+                  <li>
+                    <a href="#organizing-commitee">Organizing Commitee</a>
+                  </li>
+
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content" id="about-me">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h1
+              class="title has-text-centered section-title"
+              style="color: #263e96"
+            >
+              About HEAI 2025
+            </h1>
+          </div>
+          <div class="columns">
+            <div
+              class="column is-12 has-vertically-aligned-content"
+              data-aos="fade-right"
+              style="font-size: large"
+            >
+              <br />
+              <p>
+                <b>Embodied AI</b>, i.e., the development of technologies
+                capable of interacting with their physical environment,
+                witnessed substantial progress in the last years, mainly thanks
+                to the advent of Large Language Models (LLMs), Multimodal Large
+                Language Models (MLLMs), and other large foundation AI
+                approaches. These breakthroughs have enabled human users to
+                interact with embodied agents (<i>e.g.,</i> robots) through
+                natural language, instructing an embodied agent to navigate to a
+                given position, searching for a specific object, or interacting
+                with the object to perform a certain manipulation.
+              </p>
+
+              <p>
+                <br />
+                However, while being inherently <b>human-centric</b>, these
+                problems are often addressed without considering the presence of
+                human users and their interaction with the agent throughout the
+                execution of the embodied task. Considering that the long-term
+                goal of Embodied AI is to create a Co-Habitat for humans and
+                agents, <i>Bi-directional communication</i> (<i>i.e.,</i>
+                human-to-agent and agent-to-human) emerges as a key challenge
+                that must be addressed to effectively resolve uncertainty during
+                the full cycle of robotic perception, reasoning, planning,
+                action, and verification.
+              </p>
+
+              <p>
+                However, the problem of creating an
+                <i>intuitive, effective, trustworthy</i>, and
+                <i>robust</i> human-agent <b>Co-Habitat</b> remains largely
+                unexplored.
+              </p>
+              <p>
+                <br />
+                This workshop will address the challenges of creating
+                <b>seamless human-agent Co-Habitats</b>, focusing on
+                trustworthiness (when agents <i>don't know</i>), robustness
+                (when agents <i>ask</i> for help), and intuitive collaboration
+                (<i>bi-directional</i>
+                interaction). We aim to explore methods for integrating MLLMs
+                into embodied agents for effective multimodal interactions,
+                identifying and mitigating the risks of model hallucinations,
+                and modeling human error and communication patterns.
+              </p>
+
+              <br />
+              <!-- <div class="is-divider"></div> -->
+            </div>
+
+            <!-- logo here -->
+            <!-- <div class="column is-6 right-image" data-aos="fade-left">
+              <img class="is-rounded" src="../images/logo.png" alt="" />
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- End About Me Content -->
+      <!-- <div class="section-dark resume">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">
+                View My Resume
+              </h1>
+            </div>
+            <div class="column is-10 has-text-centered is-offset-1">
+              <h2 class="subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et doloremagna aliqua
+              </h2>
+              <form action="example.docs">
+                <button class="button">
+                  Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Begin Work Content -->
+      <div class="section-dark my-work" id="keynote-speakers">
+        <div class="container is-fullhd">
+          <div class="column is-12">
+            <h1 class="title has-text-centered keynote-speakers-title">
+              Keynote Speakers
+            </h1>
+          </div>
+
+          <div
+            class="columns is-centered"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <!-- daniele pucci -->
+            <div class="column my-is-3">
+              <a
+                href="keynote_speakers_detail.html#daniele-pucci"
+                class="card-link"
+              >
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-3by3">
+                      <img
+                        src="images/keynote/daniele_pucci.jpeg"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content fade-bg">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-3 has-text-centered">
+                          Daniele Pucci
+                        </p>
+                        <!-- <a href="https://www.iit.it/people-details/-/people/daniele-pucci" target="_blank"><i class="fa-solid fa-link"></i></a> -->
+                        <!-- <p class="subtitle is-6">daniele.pucci@iit.it</p> -->
+                        <p class="title is-6 has-text-centered">
+                          Italian Institute of Technology
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- end daniele -->
+
+            <div class="column my-is-3">
+              <a
+                target="_blank"
+                href="keynote_speakers_detail.html#he-wang"
+                class="card-link"
+              >
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-3by3">
+                      <img
+                        src="images/keynote/he_wang.jpg"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content fade-bg">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-3 has-text-centered">
+                          He <br />
+                          Wang
+                        </p>
+                        <p class="title is-6 has-text-centered">
+                          Peking University
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- end he wang -->
+
+            <!-- start  https://roozbehm.info/ -->
+            <div class="column my-is-3">
+              <a
+                target="_blank"
+                href="keynote_speakers_detail.html#roozbeh-mottaghi"
+                class="card-link"
+              >
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-3by3">
+                      <img
+                        src="images/keynote/roozbehM.jpg"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content fade-bg">
+                    <div class="media">
+                      <div class="media-content">
+                        <p
+                          class="title is-3 has-text-centered"
+                          style="margin-left: 0px !important; margin-right: 0%"
+                        >
+                          Roozbeh Mottaghi
+                        </p>
+                        <p class="title is-6 has-text-centered">
+                          Meta AI (FAIR)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- end roozbeh -->
+
+            <!-- start  Al. Vin. -->
+            <div class="column my-is-3">
+              <a
+                target="_blank"
+                href="keynote_speakers_detail.html#alessandro-vinciarelli"
+                class="card-link"
+              >
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-3by3">
+                      <img
+                        src="images/keynote/vinciarelli_600.jpg"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content fade-bg">
+                    <div class="media">
+                      <div class="media-content">
+                        <p
+                          class="title is-3 has-text-centered"
+                          style="margin-left: 0px !important; margin-right: 0%"
+                        >
+                          Alessandro Vinciarelli
+                        </p>
+                        <p class="title is-6 has-text-centered">
+                          University of Glasgow
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- end ale. v -->
+
+            <!-- start  Al. Vin. -->
+            <div class="column my-is-3">
+              <a
+                target="_blank"
+                href="keynote_speakers_detail.html#gaofeng-li"
+                class="card-link"
+              >
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-3by3">
+                      <img
+                        src="images/keynote/Gaofengli_600.png"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content fade-bg">
+                    <div class="media">
+                      <div class="media-content">
+                        <p
+                          class="title is-3 has-text-centered"
+                          style="margin-left: 0px !important; margin-right: 0%"
+                        >
+                          Gaofeng<br />
+                          Li
+                        </p>
+                        <p class="title is-6 has-text-centered">
+                          Zhejiang University
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- end roozbeh -->
+          </div>
+        </div>
+      </div>
+
+      <!-- End Work Content -->
+
+      <!-- Begin Services Content -->
+      <div class="section-color services" id="services">
+        <div class="container is-max-widescreen">
+          <div class="columns">
+            <div
+              class="column is-12 about-me has-vertically-aligned-content"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1
+                class="title has-text-centered section-title is-size-3-mobile"
+              >
+                Schedule
+              </h1>
+
+              <h2 class="subtitle">Tentative schedule as follows:</h2>
+              <br />
+
+              <div class="">
+                <table
+                  class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth"
+                >
+                  <caption class="has-text-weight-bold is-size-5">
+                    Workshop Schedule (25 min talk + 5 min Q&A)
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th class="has-text-centered">
+                        <abbr title="Time">Time</abbr>
+                      </th>
+                      <th class="has-text-centered">Talk</th>
+                      <th class="has-text-centered">Comments</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="has-text-centered">8:30 - 8:40</td>
+                      <td colspan="2" class="has-text-centered">
+                        Welcome &amp; Opening Remarkss
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="has-text-centered">8:40 - 9:10</td>
+                      <td>
+                        <strong
+                          ><a
+                            target="_blank"
+                            href="keynote_speakers_detail.html#daniele-pucci"
+                            class="card-link"
+                            >Daniele Pucci</a
+                          ></strong
+                        >
+                      </td>
+                      <td>ergoCub: the Embodied AI human aware humanoid</td>
+                    </tr>
+                    <tr>
+                      <td class="has-text-centered">9:10 - 9:40</td>
+                      <td>
+                        <strong
+                          ><a
+                            target="_blank"
+                            href="keynote_speakers_detail.html#he-wang"
+                            class="card-link"
+                            >He Wang</a
+                          ></strong
+                        >
+                      </td>
+                      <td>
+                        Toward Human-Level Dexterous Grasping Data Synthesis
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="has-text-centered">9:40 - 10:10</td>
+                      <td>
+                        <strong
+                          ><a
+                            target="_blank"
+                            href="keynote_speakers_detail.html#roozbeh-mottaghi"
+                            class="card-link"
+                            >Roozbeh Mottaghi</a
+                          ></strong
+                        >
+                      </td>
+                      <td>Leveraging Human Experience in Robotics</td>
+                    </tr>
+                    <tr class="is-selected">
+                      <td class="has-text-centered">10:10 - 11:00</td>
+                      <td colspan="2" class="has-text-centered">
+                        Coffee Break, Poster session &amp AMA (Ask Me Anything)
+                        panel
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="has-text-centered">11:00 - 11:25</td>
+                      <td>Best posters presentation</td>
+                      <td>8 minutes each + 3 min Q&amp;A</td>
+                    </tr>
+                    <tr>
+                      <td class="has-text-centered">11:25 - 11:55</td>
+                      <td>
+                        <strong
+                          ><a
+                            target="_blank"
+                            href="keynote_speakers_detail.html#alessandro-vinciarelli"
+                            class="card-link"
+                            >Alessandro Vinciarelli</a
+                          ></strong
+                        >
+                      </td>
+                      <td>Introduction to Social AI for Robotics</td>
+                    </tr>
+                    <tr>
+                      <td class="has-text-centered">11:55 - 12:25</td>
+                      <td>
+                        <strong
+                          ><a
+                            target="_blank"
+                            href="keynote_speakers_detail.html#gaofeng-li"
+                            class="card-link"
+                            >Gaofeng Li</a
+                          ></strong
+                        >
+                      </td>
+                      <td>
+                        Agile Telerobotic Systems: Embodied and Intelligent
+                        Robotic Manipulation Learning with Human-in-the-Loop
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="has-text-centered">12:25 - 12-30</td>
+                      <td colspan="2" class="has-text-centered">
+                        Closing Remarks
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <hr />
+          </div>
+        </div>
+      </div>
+      <!-- End Services Content -->
+      <!-- Begin Skills Content -->
+      <!-- <div class="section-light skills" id="skills">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">Skills</h1>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>Adobe Experience Design</h1>
+              <progress class="progress" value="70" max="100">30%</progress>
+              <h1>Adobe After Effects</h1>
+              <progress class="progress" value="65" max="100">30%</progress>
+              <h1>Visual Studio Code</h1>
+              <progress class="progress" value="58" max="100">45%</progress>
+              <h1>Sketch</h1>
+              <progress class="progress" value="90" max="100">60%</progress>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>HTML</h1>
+              <progress class="progress" value="85" max="100">30%</progress>
+              <h1>CSS</h1>
+              <progress class="progress" value="95" max="100">30%</progress>
+              <h1>VueJS</h1>
+              <progress class="progress" value="70" max="100">45%</progress>
+              <h1>React</h1>
+              <progress class="progress" value="60" max="100">60%</progress>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- End Skills Content -->
+
+      <!-- Begin Submission Content -->
+      <div class="section-color submission" id="submission">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div
+              class="column is-12 about-me"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1
+                class="title has-text-centered section-title is-size-3-mobile"
+              >
+                Call for Contributions
+              </h1>
+
+              <h2 class="subtitle">
+                The topics for HEAI 2025 include, but are not limited to:
+              </h2>
+              <br />
+            </div>
+
+            <hr />
+          </div>
+
+          <div class="columns is-multiline">
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
+            >
+              <p style="font-size: 1.5em">
+                <b>Interactive and Human-Centric</b>
+              </p>
+              <ul>
+                <li>
+                  <ul>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Human-Agent
+                      interaction and collaboration
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Human-Agent
+                      multimodal interaction
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Agent-to-Human
+                      interaction (agents that explain their actions)
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Development of
+                      comprehensive multimodal datasets
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Robust policy
+                      learning from multimodal data (<i>e.g.,</i> videos)
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> New simulation
+                      framework and tasks tailored for interactive agents
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Long-Term
+                      interaction: personalization and adaptation of embodied
+                      agents over long-term interaction
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> AI models that
+                      simulate human-like reasoning and behavior
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Ethics and
+                      Safety: Addressing ethical concerns in high-stakes domains
+                      like healthcare and robotics.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="is-divider"></div>
+            </div>
+            <div class="column is-6 right-image" data-aos="fade-left">
+              <p style="font-size: 1.5em"><b>Trustworthiness</b></p>
+              <ul>
+                <li>
+                  <ul>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Addressing
+                      hallucinations: Developing mechanisms to mitigate
+                      hallucinations in embodied agents.
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Ensuring
+                      accuracy: Strategies for handling and correcting
+                      inaccurate responses from agents.
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Proactive
+                      assistance: Designing agents that effectively ask for help
+                      when facing uncertainty or knowledge gaps (<i
+                        >i.e., they don't know</i
+                      >)
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Sim2Real:
+                      Advancing models for a seamless transition from
+                      simulations to real-world decision-making environments.
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span>
+                      Privacy-sensitive robotics: Building trustworthy agents
+                      for high-impact domains such as surgical robotics,
+                      healthcare, and autonomous systems.
+                    </li>
+                    <li>
+                      <span style="color: #ace1af">&#9642;</span> Efficient
+                      foundation model adaptation: Optimizing foundational
+                      models for embodied task performance and scalability.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr style="background-color: white !important" />
+          <h2 class="subtitle">
+            More details about the 'Call for Contributions' and 'Poster
+            Presentation' will be provided upon workshop acceptance.
+          </h2>
+          <!-- <button class="button is-light">Light</button> -->
+        </div>
+      </div>
+      <!-- End Submission Content -->
+
+      <!-- Begin Contact Content -->
+      <!-- <div class="section-light contact" id="contact">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in-up"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">
+                Get in touch
+              </h1>
+            </div>
+            <div class="column is-8 is-offset-2">
+              <form
+                action="https://formspree.io/email@example.com"
+                method="POST"
+              >
+                <div class="field">
+                  <label class="label">Name</label>
+                  <div class="control has-icons-left">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="Ex. Jane Smith"
+                      name="Name"
+                    />
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-user"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control has-icons-left">
+                    <input
+                      class="input"
+                      type="email"
+                      placeholder="Ex. hello@arctheme.com"
+                      name="Email"
+                    />
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Message</label>
+                  <div class="control">
+                    <textarea
+                      class="textarea"
+                      placeholder="Textarea"
+                      name="Message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control">
+                    <button class="button submit-button">
+                      Submit&nbsp;&nbsp;
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- End Contact Content -->
+
+      <!-- Organizing commitee -->
+      <div class="section-dark my-work" id="organizing-commitee">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered organizing-commitee-title">
+                Organizing Committee
+              </h1>
+            </div>
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-square">
+                    <img
+                      src="../images/organizing_commitee/francesco_taioli.jpg"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left"></div>
+                    <div class="media-content">
+                      <p class="title is-4">Francesco Taioli</p>
+                      <p class="subtitle is-6">
+                        <a href="https://francescotaioli.github.io/"
+                          >https://francescotaioli.github.io</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    PhD candidate in the National PhD Programme in AI at the
+                    Polytechnic of Turin, Italy.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- yiming -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-square">
+                    <img
+                      src="../images/organizing_commitee/yiming.png"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left"></div>
+                    <div class="media-content">
+                      <p class="title is-4">Yiming Wang</p>
+                      <p class="subtitle is-6">
+                        <a href="https://www.yimingwang.it/"
+                          >https://www.yimingwang.it</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Researcher in the DVL unit in Fondazione Bruno Kessler
+                    (FBK), Italy.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- catherine -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-square">
+                    <img
+                      src="../images/organizing_commitee/xinyuan_qian.png"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left"></div>
+                    <div class="media-content">
+                      <p class="title is-4">Xinyuan Qian</p>
+                      <p class="subtitle is-6">
+                        <a href="https://catherine-qian.github.io/"
+                          >https://catherine-qian.github.io</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Professor at the University of Science and Technology,
+                    Beijing, China.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- jacob -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-square">
+                    <img
+                      src="../images/organizing_commitee/jacob_profile.png"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left"></div>
+                    <div class="media-content">
+                      <p class="title is-4">Jacob Krantz</p>
+                      <p class="subtitle is-6">
+                        <a href="https://jacobkrantz.github.io/"
+                          >https://jacobkrantz.github.io/</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Research Scientist at FAIR (Meta), Embodied AI
+                    team.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- angel -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-square">
+                    <img
+                      src="../images/organizing_commitee/angel_xuan_chang.jpg"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left"></div>
+                    <div class="media-content">
+                      <p class="title is-4">Angel X Chang</p>
+                      <p class="subtitle is-6">
+                        <a href="https://angelxuanchang.github.io/"
+                          >https://angelxuanchang.github.io</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Associate Professor at Simon Fraser University, British
+                    Columbia, Canada.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- alessandro vinciarelli -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-square">
+                    <img
+                      src="../images/organizing_commitee/Vinciarelli-Square.jpg"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left"></div>
+                    <div class="media-content">
+                      <p class="title is-4">Alessandro vinciarelli</p>
+                      <p class="subtitle is-6">
+                        <a
+                          href="https://www.dimi.univr.it/id=218https://vinciarelli.net/"
+                          >https://vinciarelli.net/</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="content"
+                    style="
+                      word-wrap: break-word;
+                      overflow-wrap: break-word;
+                      hyphens: auto;
+                    "
+                  >
+                    Full Professor at the University of Glasgow, UK.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- alessio del bue -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-square">
+                    <img
+                      src="../images/organizing_commitee/alessio_profile.png"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left"></div>
+                    <div class="media-content">
+                      <p class="title is-4">Alessio Del Bue</p>
+                      <p class="subtitle is-6">
+                        <a
+                          href="https://www.iit.it/it/people-details/-/people/alessio-delbue"
+                          >https://www.iit.it/it/people-details/-/people/alessio-delbue</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Tenured senior researcher leading the PAVIS at IIT.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- marco -->
+            <div class="column is-3">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-square">
+                    <img
+                      src="../images/organizing_commitee/marco.png"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left"></div>
+                    <div class="media-content">
+                      <p class="title is-4">Marco Cristani</p>
+                      <p class="subtitle is-6">
+                        <a href="https://www.dimi.univr.it/?ent=persona&id=218"
+                          >https://www.dimi.univr.it/id=218</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="content"
+                    style="
+                      word-wrap: break-word;
+                      overflow-wrap: break-word;
+                      hyphens: auto;
+                    "
+                  >
+                    Professor at the University of Verona, Italy.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <h1 class="title has-text-centered organizing-commitee-title">
+            Sponsored by:
+          </h1>
+          <div class="columns">
+            <div class="column ">
+              <figure class="image is-256x256">
+                <br>
+                <img src="images/sponsor/nokov-mocap-logo.svg" />
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-256x256">
+                <img src="images/sponsor/univr.png" />
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image is-128x128">
+                <img src="images/sponsor/glasgow.png" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Work Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer" id="contact">
+      <p>© Copyright HEAI 2025 - heai.iros25@gmail.com</p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/showcase.js"></script>
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const mobileNav = document.getElementById("mobile-nav");
+        const burgerMenu = document.querySelector(".navbar-burger");
+
+        mobileNav.addEventListener("click", function () {
+          if (mobileNav.classList.contains("is-active")) {
+            mobileNav.classList.remove("is-active"); // Hide the menu
+            burgerMenu.classList.remove("is-active");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
