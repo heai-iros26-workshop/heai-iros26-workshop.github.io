@@ -53,7 +53,7 @@
     <!-- Begin Header -->
     <div class="header-wrapper" id="home">
       <!-- Begin Hero -->
-      <section class="hero hero-background is-large">
+      <section class="hero is-large">
         <!-- Begin Mobile Nav -->
         <nav class="navbar is-fixed-top is-transparent is-hidden-desktop">
           <!-- Begin Burger Menu -->
@@ -107,16 +107,25 @@
         </nav>
         <!-- End Mobile Nav -->
         <!-- Begin Hero Content-->
-        <div class="hero-body">
+        <div 
+          class="hero-body"
+          style="
+            background: url('images/iros26.jpeg') no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+            min-height: 100vh;
+          "
+        >
           <div class="container has-text-centered">
             <!-- <h1 class="subtitle">Workshop on</h1> -->
             <h2
               class="title is-size-2-mobile is-size-0-tablet is-size-0-desktop"
+              style="color: #1d4b95; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);"
             >
               Human-aware Embodied AI
             </h2>
 
-            <h1 class="subtitle">
+            <!-- <h1 class="subtitle">
               (HEAI) workshop - accepted at
               <b
                 ><a href="https://2026.ieee-iros.org/" target="_blank">IROS'26</a></b
@@ -148,7 +157,7 @@
               <a href="#submission" target="_blank"
                 >Travel support + best papers prize</a
               >
-            </p>
+            </p> -->
           </div>
         </div>
 
@@ -744,7 +753,7 @@
       <!-- End Skills Content -->
 
       <!-- Begin Submission Content -->
-      <div class="section-color submission" id="submission">
+      <!-- <div class="section-color submission" id="submission">
         <div class="container">
           <div class="columns is-multiline">
             <div
@@ -773,9 +782,6 @@
               style="padding-left: 15%"
               data-aos="fade-right"
             >
-              <!-- <p style="font-size: 1.5em">
-                <b>Interactive and Human-Centric</b>
-              </p> -->
               <ul>
                 <li>
                   <ul>
@@ -799,35 +805,6 @@
                       <span style="color: #ace1af">&#9642;</span> Interaction
                       adaptation
                     </li>
-                    <!-- <li>
-                      <span style="color: #ace1af">&#9642;</span> New simulation
-                      framework and tasks tailored for interactive agents
-                    </li>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span> Long-Term
-                      interaction: personalization and adaptation of embodied
-                      agents over long-term interaction
-                    </li>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span> AI models that
-                      simulate human-like reasoning and behavior
-                    </li>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span> Ethics and
-                      Safety: Addressing ethical concerns in high-stakes domains
-                      like healthcare and robotics.
-                    </li> -->
-                  </ul>
-                </li>
-              </ul>
-              <div class="is-divider"></div>
-            </div>
-            <div
-              class="column is-6 right-image"
-              data-aos="fade-left"
-              style="padding-left: 15%"
-            >
-              <!-- <p style="font-size: 1.5em"><b>Trustworthiness</b></p> -->
               <ul>
                 <li>
                   <ul>
@@ -851,11 +828,6 @@
                       <span style="color: #ace1af">&#9642;</span>
                       Ethics & Safety
                     </li>
-                    <!-- <li>
-                      <span style="color: #ace1af">&#9642;</span> Efficient
-                      foundation model adaptation: Optimizing foundational
-                      models for embodied task performance and scalability.
-                    </li> -->
                   </ul>
                 </li>
               </ul>
@@ -928,9 +900,8 @@
               Further details about the Poster Presentation will be shared soon.
             </p>
           </h2>
-          <!-- <button class="button is-light">Light</button> -->
         </div>
-      </div>
+      </div> -->
       <!-- End Submission Content -->
 
       <!-- Begin Contact Content -->
@@ -1017,35 +988,6 @@
                 Organizing Committee
               </h1>
             </div>
-            <div class="column is-4">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-square">
-                    <img
-                      src="../images/organizing_commitee/yuwen_wang.jpg"
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-left"></div>
-                    <div class="media-content">
-                      <p class="title is-4">Yuwen Wang</p>
-                      <p class="subtitle is-6">
-                        <a href="https://github.com/vanessa1114wang"
-                          >https://vanessa1114wang</a
-                        >
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="content">
-                    Master’s Student, University of Science and Technology Beijing, China
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <!-- yiming -->
             <div class="column is-4">
@@ -1078,6 +1020,38 @@
               </div>
             </div>
             
+            <!-- yuwen wang -->
+            <div class="column is-4">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-square">
+                    <img
+                      src="../images/organizing_commitee/yuwen_wang.jpg"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left"></div>
+                    <div class="media-content">
+                      <p class="title is-4">Yuwen Wang</p>
+                      <p class="subtitle is-6">
+                        <a href="https://github.com/vanessa1114wang"
+                          >https://vanessa1114wang</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Master’s Student, University of Science and Technology Beijing, China
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- yuwen wang -->
+
             <!-- Giseop Kim -->
             <div class="column is-4">
               <div class="card">
@@ -1323,7 +1297,7 @@
 
           </div>
           <hr />
-          <h1 class="title has-text-centered organizing-commitee-title">
+          <!-- <h1 class="title has-text-centered organizing-commitee-title">
             Sponsored by:
           </h1>
           <div class="columns">
@@ -1352,7 +1326,7 @@
                   <img src="images/sponsor/univr.png" />
                 </figure>
               </a>
-            </div>
+            </div> -->
             <!-- <div class="column">
               <a
                 href="https://www.gla.ac.uk/"
@@ -1405,14 +1379,14 @@
     <!-- End Main Content -->
 
     <!-- Begin Footer -->
-    <div class="footer" id="contact">
+    <!-- <div class="footer" id="contact">
       <p>
         © Copyright HEAI 2026 - heai.iros26@gmail.com | Join our<a
           href="https://join.slack.com/t/heai-iros25workshop/shared_invite/zt-37pam5nac-NIG4syyVvSrcBKIhe4Rt7A"
           >Slack channel!</a
         >
       </p>
-    </div>
+    </div> -->
     <!-- End Footer -->
 
     <!-- Scripts -->
