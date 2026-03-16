@@ -31,13 +31,13 @@ html {
   
 }
 
-/* .hero-background{
+.hero-background{
   background-image: url("../images/iros26.jpeg");
-  background: linear-gradient(rgba(146, 155, 204, 0.65), rgba(126, 130, 151, 0.65)), rgba(152, 74, 74, 0.55) url("../images/iros26.jpeg") no-repeat;
+  background: url("../images/iros26.jpeg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
-} */
+}
 
 .hero .title {
   font-family: 'Lato', sans-serif;
