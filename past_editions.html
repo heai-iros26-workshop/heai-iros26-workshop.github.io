@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Human-aware Embodied AI</title>
+    <!-- Bulma Version 1-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@1.0.2/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/showcase.css" />
+    <script
+      src="https://kit.fontawesome.com/37a54cf404.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <form action="#home">
+      <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+    </form>
+    <!-- End Scroll Up Button -->
+
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-fixed-top is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="index.html#home"
+                  ><i class="fa-solid fa-house"></i> Home
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="index.html#about-me">
+                  <i class="fa-solid fa-circle-info"></i> About HEAI
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="index.html#keynote-speakers"
+                  ><i class="fa-solid fa-person"></i> Keynote Speakers
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="index.html#services"
+                  ><i class="fa-regular fa-calendar-days"></i> Schedule
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="index.html#submission"
+                  ><i class="fa-solid fa-upload"></i> Submission
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="index.html#organizing-commitee">
+                  <i class="fa-solid fa-person"></i> Organizing Commitee
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#contact"
+                  ><i class="fa-solid fa-address-book"></i> Contact
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="past_editions.html">
+                  <i class="fa-solid fa-clock-rotate-left"></i> Past Editions
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div
+                class="column is-12 hero-menu-desktop has-text-centered is-fixed-top"
+              >
+                <div style="position: absolute; left: 20px; top: 10px">
+                  <span
+                    class="website-name"
+                    style="
+                      font-weight: bold;
+                      font-size: 1.5em;
+                      text-transform: none;
+                      padding-left: 2em;
+                    "
+                    >HEAI 2026</span
+                  >
+                </div>
+                <ul>
+                  <li class="is-active">
+                    <a href="index.html#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="index.html#about-me">About HEAI</a>
+                  </li>
+                  <li>
+                    <a href="index.html#keynote-speakers">Keynote Speakers</a>
+                  </li>
+                  <li>
+                    <a href="index.html#services">Schedule</a>
+                  </li>
+                  <li>
+                    <a href="index.html#submission">Submission</a>
+                  </li>
+                  <li>
+                    <a href="index.html#organizing-commitee"
+                      >Organizing Commitee</a
+                    >
+                  </li>
+                  <li>
+                    <a href="index.html#contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="past_editions.html">Past Editions</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content" id="about-me" style="
+            background: linear-gradient(rgba(220, 220, 220, 0.7), rgba(220, 220, 220, 0.7)), url('images/iros25.png') no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+            min-height: 100vh;
+          ">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+            style="padding-top: 250px;">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h2
+              class="title has-text-centered section-title"
+              style="color: #263e96"
+            >
+              <span style="font-size: 2.8rem; display: block;">
+                About Human-aware Embodied AI
+                (HEAI<a href="https://heai-iros25-workshop.github.io/">🔗</a>)
+              </span>
+              <span style="font-size: 2rem; display: block; margin-top: 0.3rem;">
+                IROS 2025 Workshop
+              </span>
+            </h2>
+          </div>
+          <div class="columns">
+            <div
+              class="column is-12 has-vertically-aligned-content"
+              data-aos="fade-right"
+              style="font-size: large"
+            >
+              <br />
+              <p>
+                <b>Embodied AI</b>, i.e., the development of technologies
+                capable of interacting with their physical environment,
+                witnessed substantial progress in the last years, mainly thanks
+                to the advent of Large Language Models (LLMs), Multimodal Large
+                Language Models (MLLMs), and other large foundation AI
+                approaches. These breakthroughs have enabled human users to
+                interact with embodied agents (<i>e.g.,</i> robots) through
+                natural language, instructing an embodied agent to navigate to a
+                given position, searching for a specific object, or interacting
+                with the object to perform a certain manipulation.
+              </p>
+
+              <p>
+                <br />
+                However, while being inherently <b>human-centric</b>, these
+                problems are often addressed without considering the presence of
+                human users and their interaction with the agent throughout the
+                execution of the embodied task. Considering that the long-term
+                goal of Embodied AI is to create a Co-Habitat for humans and
+                agents, <i>Bi-directional communication</i> (<i>i.e.,</i>
+                human-to-agent and agent-to-human) emerges as a key challenge
+                that must be addressed to effectively resolve uncertainty during
+                the full cycle of robotic perception, reasoning, planning,
+                action, and verification.
+              </p>
+
+              <p>
+                However, the problem of creating an
+                <i>intuitive, effective, trustworthy</i>, and
+                <i>robust</i> human-agent <b>Co-Habitat</b> remains largely
+                unexplored.
+              </p>
+              <p>
+                <br />
+                This workshop will address the challenges of creating
+                <b>seamless human-agent Co-Habitats</b>, focusing on
+                trustworthiness (when agents <i>don't know</i>), robustness
+                (when agents <i>ask</i> for help), and intuitive collaboration
+                (<i>bi-directional</i>
+                interaction). We aim to explore methods for integrating MLLMs
+                into embodied agents for effective multimodal interactions,
+                identifying and mitigating the risks of model hallucinations,
+                and modeling human error and communication patterns.
+              </p>
+
+              <br />
+              <!-- <div class="is-divider"></div> -->
+               <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Me Content -->
+      <div
+        class="columns is-multiline is-centered"
+        style="max-width: 1700px; margin: 0 auto;"
+      >
+        <div
+          class="column is-12"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="900"
+        >
+          <div style="margin-top: 0rem; margin-bottom: 1rem;">
+            <h3
+              style="
+                color: #263e96;
+                font-size: 2.8rem;
+                font-weight: 700;
+                text-align: center;
+                margin-bottom: 5rem;
+              "
+            >
+              📷 Glimpses from HEAI 2025
+            </h3>
+
+          </div>
+
+          <div class="columns is-multiline is-centered">
+            <div
+              class="column is-4-desktop is-6-tablet is-12-mobile"
+              data-aos="zoom-in"
+              data-aos-delay="0"
+            >
+              <div
+                class="card"
+                style="
+                  border-radius: 16px;
+                  overflow: hidden;
+                  box-shadow: 0 10px 26px rgba(14, 25, 80, 0.14);
+                  background: transparent;
+                "
+              >
+                <div class="card-image" style="text-align: center; padding: 0.5rem;">
+                  <img
+                    src="images/past/7.jpg"
+                    alt="HEAI 2025 image 1"
+                    style="
+                      max-width: 100%;
+                      width: auto;
+                      height: auto;
+                      margin: 0 auto;
+                      display: inline-block;
+                      border-radius: 14px;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="column is-4-desktop is-6-tablet is-12-mobile"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div
+                class="card"
+                style="
+                  border-radius: 16px;
+                  overflow: hidden;
+                  box-shadow: 0 10px 26px rgba(14, 25, 80, 0.14);
+                  background: transparent;
+                "
+              >
+                <div class="card-image" style="text-align: center; padding: 0.5rem;">
+                  <img
+                    src="images/past/3.jpg"
+                    alt="HEAI 2025 image 2"
+                    style="
+                      max-width: 100%;
+                      width: auto;
+                      height: auto;
+                      margin: 0 auto;
+                      display: inline-block;
+                      border-radius: 14px;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="column is-4-desktop is-6-tablet is-12-mobile"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div
+                class="card"
+                style="
+                  border-radius: 16px;
+                  overflow: hidden;
+                  box-shadow: 0 10px 26px rgba(14, 25, 80, 0.14);
+                  background: transparent;
+                "
+              >
+                <div class="card-image" style="text-align: center; padding: 0.5rem;">
+                  <img
+                    src="images/past/6.jpg"
+                    alt="HEAI 2025 image 3"
+                    style="
+                      max-width: 100%;
+                      width: auto;
+                      height: auto;
+                      margin: 0 auto;
+                      display: inline-block;
+                      border-radius: 14px;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="column is-4-desktop is-6-tablet is-12-mobile"
+              data-aos="zoom-in"
+              data-aos-delay="0"
+            >
+              <div
+                class="card"
+                style="
+                  border-radius: 16px;
+                  overflow: hidden;
+                  box-shadow: 0 10px 26px rgba(14, 25, 80, 0.14);
+                  background: transparent;
+                "
+              >
+                <div class="card-image" style="text-align: center; padding: 0.5rem;">
+                  <img
+                    src="images/past/1.jpg"
+                    alt="HEAI 2025 image 4"
+                    style="
+                      max-width: 100%;
+                      width: auto;
+                      height: auto;
+                      margin: 0 auto;
+                      display: inline-block;
+                      border-radius: 14px;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="column is-4-desktop is-6-tablet is-12-mobile"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div
+                class="card"
+                style="
+                  border-radius: 16px;
+                  overflow: hidden;
+                  box-shadow: 0 10px 26px rgba(14, 25, 80, 0.14);
+                  background: transparent;
+                "
+              >
+                <div class="card-image" style="text-align: center; padding: 0.5rem;">
+                  <img
+                    src="images/past/4.jpg"
+                    alt="HEAI 2025 image 5"
+                    style="
+                      max-width: 100%;
+                      width: auto;
+                      height: auto;
+                      margin: 0 auto;
+                      display: inline-block;
+                      border-radius: 14px;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="column is-4-desktop is-6-tablet is-12-mobile"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div
+                class="card"
+                style="
+                  border-radius: 16px;
+                  overflow: hidden;
+                  box-shadow: 0 10px 26px rgba(14, 25, 80, 0.14);
+                  background: transparent;
+                "
+              >
+                <div class="card-image" style="text-align: center; padding: 0.5rem;">
+                  <img
+                    src="images/past/2.jpg"
+                    alt="HEAI 2025 image 6"
+                    style="
+                      max-width: 100%;
+                      width: auto;
+                      height: auto;
+                      margin: 0 auto;
+                      display: inline-block;
+                      border-radius: 14px;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-12" style="text-align: center; max-width: 570px; margin: 0 auto;">
+              <img
+                src="images/past/5.jpg"
+                alt="HEAI 2025 image 7"
+                style="
+                  max-width: 100%;
+                  width: auto;
+                  height: auto;
+                  margin: 0 auto;
+                  display: inline-block;
+                  border-radius: 14px;
+                  box-shadow: 0 12px 28px rgba(14, 25, 80, 0.16);
+                "
+              />
+            </div>
+          </div>
+
+          <hr/>
+          <div
+            style="
+              text-align: center;
+              margin-top: 1.2rem;
+              margin-bottom: 1rem;
+            "
+            data-aos="fade-up"
+            data-aos-delay="250"
+          >
+            <a
+              href="https://heai-iros25-workshop.github.io/"
+              target="_blank"
+              style="
+                display: inline-block;
+                background-color: #43485c;
+                color: white;
+                padding: 0.75rem 1.4rem;
+                border-radius: 999px;
+                text-decoration: none;
+                font-weight: 700;
+                box-shadow: 0 8px 18px rgba(14, 25, 80, 0.12);
+              "
+            >
+              Visit the HEAI 2025 Website
+            </a>
+            <a
+              href="index.html"
+              style="
+                display: inline-block;
+                background-color: #263e96;
+                color: white;
+                padding: 0.75rem 1.4rem;
+                border-radius: 999px;
+                text-decoration: none;
+                font-weight: 700;
+                box-shadow: 0 8px 18px rgba(14, 25, 80, 0.12);
+              "
+            >
+              Back to HEAI 2026 Website
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <!-- <div class="footer" id="contact">
+      <p>© Copyright HEAI 2026 - heai.iros26@gmail.com</p>
+    </div> -->
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/showcase.js"></script>
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
