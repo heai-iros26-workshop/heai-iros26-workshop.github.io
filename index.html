@@ -22,7 +22,7 @@
       rel="stylesheet"
       href="https://unpkg.com/bulma@1.0.2/css/bulma.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="../css/showcase.css" />
+    <link rel="stylesheet" type="text/css" href="css/showcase.css" />
     <script
       src="https://kit.fontawesome.com/37a54cf404.js"
       crossorigin="anonymous"
@@ -130,39 +130,53 @@
               Human-aware Embodied AI
             </h2>
 
-            <!-- <h1 class="subtitle">
+            <h1
+              class="subtitle"
+              style="
+                color: #1d4b95;
+                font-family: 'Lato', sans-serif;
+                font-weight: 600;
+                text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7);
+              "
+            >
               (HEAI) workshop - accepted at
               <b
-                ><a href="https://2026.ieee-iros.org/" target="_blank">IROS'26</a></b
+                ><a
+                  href="https://2026.ieee-iros.org/"
+                  target="_blank"
+                  style="
+                    color: #fdc526;
+                    text-decoration: none;
+                    font-weight: 800;
+                  "
+                  >IROS'26</a
+                ></b
               >
             </h1>
 
-            <p class="subtitle has-text-white mt-4">
-              🗓️ <strong>October 24th, 2026</strong> · 8:30 AM - 12:30 AM<br />
-              📍 <strong>Room 402</strong>, Hangzhou, China <br />
-              <i class="fa-brands fa-slack"></i>
-              <strong>Slack Channel:</strong>
-              <a
-                href="https://join.slack.com/t/heai-iros25workshop/shared_invite/zt-37pam5nac-NIG4syyVvSrcBKIhe4Rt7A"
-                target="_blank"
-                >Join here!</a
-              >
-              <br />
-              <i class="fa-solid fa-up-right-from-square"></i>
-              <strong>Submission:</strong>
-              <a
-                href="https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/HEAI"
-                target="_blank"
-                >OpenReview!</a
-              >
-
-              <br />
-              <i class="far fa-newspaper"></i>
-              <strong>News!</strong>
-              <a href="#submission" target="_blank"
-                >Travel support + best papers prize</a
-              >
-            </p> -->
+            <p
+              class="subtitle mt-4"
+              style="
+                font-family: 'Lato', sans-serif;
+                line-height: 1.9;
+                color: #1d4b95 !important;
+              "
+            >
+              <span style="color: #1d4b95 !important; font-weight: 800;">🗓️ <strong style="color: #1d4b95 !important;">Date:</strong></span>
+              <span style="color: #0a2a5e !important; font-weight: 700; font-size: 0.85em;"> To be determined</span><br />
+              <span style="color: #1d4b95 !important; font-weight: 800;">📍 <strong style="color: #1d4b95 !important;">Location:</strong></span>
+              <span style="color: #0a2a5e !important; font-weight: 700; font-size: 0.85em;"> To be determined</span><br />
+              <span style="color: #1d4b95 !important; font-weight: 800;">
+                <i class="fa-brands fa-slack" style="color: #1d4b95 !important;"></i>
+                <strong style="color: #1d4b95 !important;">Slack Channel:</strong>
+              </span>
+              <span style="color: #0a2a5e !important; font-weight: 700; font-size: 0.85em;"> To be determined</span><br />
+              <span style="color: #1d4b95 !important; font-weight: 800;">
+                <i class="fa-solid fa-up-right-from-square" style="color: #1d4b95 !important;"></i>
+                <strong style="color: #1d4b95 !important;">Submission:</strong>
+              </span>
+              <span style="color: #0a2a5e !important; font-weight: 700; font-size: 0.85em;"> To be determined</span>
+            </p>
           </div>
         </div>
 
@@ -277,7 +291,7 @@
 
             <!-- logo here -->
             <!-- <div class="column is-6 right-image" data-aos="fade-left">
-              <img class="is-rounded" src="../images/logo.png" alt="" />
+              <img class="is-rounded" src="images/logo.png" alt="" />
             </div> -->
           </div>
         </div>
@@ -741,7 +755,7 @@
       <!-- End Skills Content -->
 
       <!-- Begin Submission Content -->
-      <!-- <div class="section-color submission" id="submission">
+      <div class="section-color submission" id="submission">
         <div class="container">
           <div class="columns is-multiline">
             <div
@@ -772,76 +786,99 @@
             >
               <ul>
                 <li>
-                  <ul>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span> Collaborative
-                      Human-Agent interaction
-                    </li>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span> Multimodal
-                      Human-Agent interaction
-                    </li>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span>
-                      Interaction-enabled simulators / benchmarks
-                    </li>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span> Interaction
-                      personalization
-                    </li>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span> Interaction
-                      adaptation
-                    </li>
+                  <span style="color: #ace1af">&#9642;</span> Collaborative
+                  Human-Agent interaction
+                </li>
+                <li>
+                  <span style="color: #ace1af">&#9642;</span> Multimodal
+                  Human-Agent interaction
+                </li>
+                <li>
+                  <span style="color: #ace1af">&#9642;</span>
+                  Interaction-enabled simulators / benchmarks
+                </li>
+                <li>
+                  <span style="color: #ace1af">&#9642;</span> Interaction
+                  personalization
+                </li>
+                <li>
+                  <span style="color: #ace1af">&#9642;</span> Interaction
+                  adaptation
+                </li>
+              </ul>
+            </div>
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              style="padding-left: 10%"
+              data-aos="fade-left"
+            >
               <ul>
                 <li>
-                  <ul>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span> Uncertainty
-                      understanding
-                    </li>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span> Foundation
-                      models (VLM/VLAs)
-                    </li>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span>Human behaviour
-                      modeling
-                    </li>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span> Embodied
-                      reasoning
-                    </li>
-                    <li>
-                      <span style="color: #ace1af">&#9642;</span>
-                      Ethics & Safety
-                    </li>
-                  </ul>
+                  <span style="color: #ace1af">&#9642;</span> Uncertainty
+                  understanding
+                </li>
+                <li>
+                  <span style="color: #ace1af">&#9642;</span> Foundation
+                  models (VLM/VLAs)
+                </li>
+                <li>
+                  <span style="color: #ace1af">&#9642;</span> Human behaviour
+                  modeling
+                </li>
+                <li>
+                  <span style="color: #ace1af">&#9642;</span> Embodied
+                  reasoning
+                </li>
+                <li>
+                  <span style="color: #ace1af">&#9642;</span>
+                  Ethics &amp; Safety
                 </li>
               </ul>
             </div>
           </div>
           <hr style="background-color: white !important" />
           <h2 class="subtitle">
-            <b>Submission Guidelines</b>
-            <br />
+            <span
+              style="
+                color: #ffd166;
+                font-size: 1.6rem;
+                font-weight: 800;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+              "
+              >Submission Guidelines</span
+            >
+            <br /><br />
             We invite submissions of up to
-            <b>4 pages (excluding references) of non-archival</b> papers using
-            the official
+            <span
+              style="
+                color: #5fd3ff;
+                font-weight: 800;
+                background: rgba(255, 255, 255, 0.08);
+                padding: 2px 8px;
+                border-radius: 4px;
+              "
+              >4 pages (excluding references) of non-archival</span
+            >
+            papers using the official
             <a
-              href="https://ras.papercept.net/conferences/support/support.php"
+              href="https://ras.papercept.net/conferences/support/tex.php"
               target="_blank"
+              style="color: #ffd166; text-decoration: underline; font-weight: 700;"
               >template</a
             >. Submissions previously published elsewhere are also welcome.
             <br /><br />
 
-            <b
-              >To submit a paper, please see the official
-              <a
-                href="https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/HEAI"
-                target="_blank"
-                >OpenReview page</a
-              ></b
+            To submit a paper, please see the official
+            <span
+              style="
+                color: #5fd3ff;
+                font-weight: 800;
+                background: rgba(255, 255, 255, 0.08);
+                padding: 2px 8px;
+                border-radius: 4px;
+              "
+              >OpenReview page (link: <i>To be determined</i>)</span
             >. <br /><br />
 
             <div class="box has-background-dark has-text-white">
@@ -861,7 +898,7 @@
                     >⏳ Submission deadline:</strong
                   >
                   <span class="has-text-danger-light"
-                    >September 26<sup>th</sup>, 2026</span
+                    >September 06<sup>th</sup>, 2026</span
                   >
                 </li>
                 <li>
@@ -869,27 +906,22 @@
                     >✅ Acceptance notification:</strong
                   >
                   <span class="has-text-success-light"
-                    >October 08<sup>th</sup>, 2026</span
+                    >September 26<sup>th</sup>, 2026</span
+                  >
+                </li>
+                <li>
+                  <strong class="has-text-white"
+                    >🎉 Workshop day:</strong
+                  >
+                  <span class="has-text-warning-light"
+                    >October 01<sup>st</sup>, 2026</span
                   >
                 </li>
               </ul>
             </div>
-
-            <hr style="background-color: white !important" />
-            <h3 class="title is-4 has-text-info">
-              <p>
-                <b class="blink">NEWS!</b> The authors of the two best papers
-                will have their workshop registration covered. In addition,
-                travel support is available.
-              </p>
-            </h3>
-
-            <p>
-              Further details about the Poster Presentation will be shared soon.
-            </p>
           </h2>
         </div>
-      </div> -->
+      </div>
       <!-- End Submission Content -->
 
       <!-- Begin Contact Content -->
@@ -984,7 +1016,7 @@
                 <div class="card-image">
                   <figure class="image is-square">
                     <img
-                      src="../images/organizing_commitee/yiming_profile.jpg"
+                      src="images/organizing_commitee/yiming_profile.jpg"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -1015,7 +1047,7 @@
                 <div class="card-image">
                   <figure class="image is-square">
                     <img
-                      src="../images/organizing_commitee/yuwen_wang.jpg"
+                      src="images/organizing_commitee/yuwen_wang.jpg"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -1047,7 +1079,7 @@
                 <div class="card-image">
                   <figure class="image is-square">
                     <img
-                      src="../images/organizing_commitee/giseop.jpeg"
+                      src="images/organizing_commitee/giseop.jpeg"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -1079,7 +1111,7 @@
                 <div class="card-image">
                   <figure class="image is-square">
                     <img
-                      src="../images/organizing_commitee/xinyuan_qian.png"
+                      src="images/organizing_commitee/xinyuan_qian.png"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -1110,7 +1142,7 @@
                 <div class="card-image">
                   <figure class="image is-square">
                     <img
-                      src="../images/organizing_commitee/tommaso.jpg"
+                      src="images/organizing_commitee/tommaso.jpg"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -1150,7 +1182,7 @@
                 <div class="card-image">
                   <figure class="image is-square">
                     <img
-                      src="../images/organizing_commitee/angel_xuan_chang.jpg"
+                      src="images/organizing_commitee/angel_xuan_chang.jpg"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -1182,7 +1214,7 @@
                 <div class="card-image">
                   <figure class="image is-square">
                     <img
-                      src="../images/organizing_commitee/Vinciarelli-Square.jpg"
+                      src="images/organizing_commitee/Vinciarelli-Square.jpg"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -1214,7 +1246,7 @@
                 <div class="card-image">
                   <figure class="image is-square">
                     <img
-                      src="../images/organizing_commitee/alessio_compressed.jpg"
+                      src="images/organizing_commitee/alessio_compressed.jpg"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -1252,7 +1284,7 @@
                 <div class="card-image">
                   <figure class="image is-square">
                     <img
-                      src="../images/organizing_commitee/andrea.jpg"
+                      src="images/organizing_commitee/andrea.jpg"
                       alt="Placeholder image"
                     />
                   </figure>
@@ -1286,39 +1318,13 @@
 
           </div>
           <hr />
-          <!-- <h1 class="title has-text-centered organizing-commitee-title">
+          <h1 class="title has-text-centered organizing-commitee-title">
             Sponsored by:
           </h1>
-          <div class="columns">
-            <div class="column">
+          <div class="columns is-centered">
+            <div class="column is-4">
               <a
-                href="https://en.nokov.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <figure class="image is-256x256 sponsor-hover-effect">
-                  <br />
-                  <img
-                    src="images/sponsor/nokov-mocap-logo.svg"
-                    alt="Nokov Motion Capture Logo"
-                  />
-                </figure>
-              </a>
-            </div>
-            <div class="column">
-              <a
-                href="https://www.univr.it/it/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <figure class="image is-256x256 sponsor-hover-effect">
-                  <img src="images/sponsor/univr.png" />
-                </figure>
-              </a>
-            </div> -->
-            <!-- <div class="column">
-              <a
-                href="https://www.gla.ac.uk/"
+                href="https://gbionics.ai/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -1328,39 +1334,46 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    padding: 1.5em 0;
+                    padding: 1.5em;
+                    margin: 0 auto;
+                    border-radius: 14px;
+                    background:
+                      linear-gradient(
+                        115deg,
+                        rgba(255, 255, 255, 0) 0%,
+                        rgba(255, 255, 255, 0) 35%,
+                        rgba(255, 255, 255, 0.18) 50%,
+                        rgba(255, 255, 255, 0) 65%,
+                        rgba(255, 255, 255, 0) 100%
+                      ),
+                      radial-gradient(
+                        circle at 25% 15%,
+                        rgba(255, 255, 255, 0.25) 0%,
+                        rgba(255, 255, 255, 0) 45%
+                      ),
+                      linear-gradient(
+                        135deg,
+                        #000000 0%,
+                        #1a1a1a 30%,
+                        #4a4a4a 50%,
+                        #1a1a1a 70%,
+                        #000000 100%
+                      );
+                    box-shadow:
+                      0 10px 30px rgba(0, 0, 0, 0.55),
+                      inset 0 1px 0 rgba(255, 255, 255, 0.12),
+                      inset 0 -2px 4px rgba(0, 0, 0, 0.6);
                   "
                 >
                   <img
-                    src="images/sponsor/UoG_colour_resize.png"
-                    style="max-height: 80%; max-width: 80%"
+                    src="images/sponsor/sponser-generative.png"
+                    alt="G-Bionics Logo"
+                    style="max-height: 100%; max-width: 100%; object-fit: contain;"
                   />
                 </figure>
               </a>
             </div>
-          </div> -->
-          <!-- <div class="column">
-            <a
-              href="http://www.fondazione-fair.it/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <figure
-                class="image is-256x256 sponsor-hover-effect"
-                style="
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  padding: 1.5em 0;
-                "
-              >
-                <img
-                  src="images/sponsor/fair.png"
-                  style="max-height: 80%; max-width: 80%"
-                />
-              </figure>
-            </a>
-          </div> -->
+          </div>
         </div>
       </div>
       <!-- End Work Content -->
@@ -1380,7 +1393,7 @@
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../js/showcase.js"></script>
+    <script src="js/showcase.js"></script>
     <link
       href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
       rel="stylesheet"
